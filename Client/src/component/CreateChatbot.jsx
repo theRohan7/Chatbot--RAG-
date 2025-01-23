@@ -51,6 +51,7 @@ const CreateBot = () => {
     <div className="create-bot-container">
       <div className="create-bot-card">
         <h2>Configure Your Chatbot</h2>
+        <span>Feed your Data!!</span>
         <input 
           type="file" 
           accept=".pdf,.txt"
