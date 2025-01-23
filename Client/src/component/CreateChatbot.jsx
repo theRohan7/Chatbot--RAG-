@@ -50,6 +50,7 @@ const CreateBot = () => {
   return (
     <div className="create-bot-container">
       <div className="create-bot-card">
+      <img src="../public/chatbot.png" alt="" />
         <h2>Configure Your Chatbot</h2>
         <span>Feed your Data!!</span>
         <input 

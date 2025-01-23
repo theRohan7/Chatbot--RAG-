@@ -2,7 +2,12 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const ChatInterface = () => {
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState([
+    {
+      role: 'ai',
+      content: 'Hello! How can I assist you today?'
+    }
+  ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -57,7 +62,6 @@ const ChatInterface = () => {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          onKeyPress={(e) => e.key === 'Enter' && sendMessage()}
           placeholder="Type your message..."
         />
         <button onClick={sendMessage} disabled={loading}>
