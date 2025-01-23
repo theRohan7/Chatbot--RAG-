@@ -31,7 +31,7 @@ const CreateBot = () => {
 
     try {
       setLoading(true);
-      const response = await axios.post('http://localhost:8000/api/v1/upload', formData, {
+      const response = await axios.post('https://rag-chatbot-atr7.onrender.com/api/v1/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
 

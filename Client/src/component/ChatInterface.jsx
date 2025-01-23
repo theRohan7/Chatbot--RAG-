@@ -15,7 +15,7 @@ const ChatInterface = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:8000/api/v1/chat', {
+      const response = await axios.post('https://rag-chatbot-atr7.onrender.com/api/v1/chat', {
         question: input,
         chatHistory: messages
       });
