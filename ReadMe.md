@@ -8,6 +8,10 @@ LangChain is a framework designed to build applications with the power of LLMs. 
 ## What is a Vector Embedding?
 Vector embeddings are numerical representations of data, such as text, images, or other media, in a continuous vector space. This representation allows the system to find similar items or contextually relevant data by calculating distances between vectors. Pinecone is used in this project as the vector database to efficiently store and query embeddings.
 
+
+## Deployed Project Links
+- Deployed on vercel: https://chatbot-lemon-sigma.vercel.app/
+
 ## Snapshots of the Project
 Below are some visual snapshots of the project:
 
@@ -15,11 +19,7 @@ Below are some visual snapshots of the project:
  ![Configure Chatbot](sample3.png)
 
 - **Video smaple Bot giving follow-up response.**: 
-
-<video width="640" height="360" controls>
-  <source src="sample2.mp4" type="video/mp4" autoplay>
-  Your browser does not support the video tag.
-</video>
+[watch Demo video](https://drive.google.com/file/d/1_9VaKbD8SRiS_FEyQ7o6ywa-6nXG3hjc/view?usp=drive_link)
 
 - **Knowledge Base Upload**:  ![user Inteface](sample1.png)
 
