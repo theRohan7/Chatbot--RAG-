@@ -50,3 +50,6 @@ app.get('/', (req, res) => {
   res.send(`Hello World, Connected to DB Successfully!`);
 })
 
+import appRouter from "./routes/index.js";
+
+app.use('/api/v1', appRouter);
