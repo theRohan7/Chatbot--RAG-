@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import ChatInterface from './ChatInterface';
+import axios from 'axios';
 
 const CreateBot = () => {
   const [file, setFile] = useState(null);
