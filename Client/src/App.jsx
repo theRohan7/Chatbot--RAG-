@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import CreateChatbot from './component/createChatbot'
+import CreateBot from './component/CreateChatbot.jsx'
+
 
 function App() {
  const [isBotConfigured, setIsBotConfigured] = useState(false)
 
   return (
     <>
-     <CreateChatbot />
+     <CreateBot />
     </>
   )
 }
